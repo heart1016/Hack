@@ -1,6 +1,3 @@
-# 超强vim配置文件
-
-[![Build Status](https://github.com/heart1016/hack.git)](https://github.com/heart1016/hack.git)
 
 ### 运行截图
 
