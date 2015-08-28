@@ -427,7 +427,7 @@ Bundle 'majutsushi/tagbar'
 "Bundle 'altercation/solarized.git'
 "
 Bundle 'Shougo/neocomplete.vim'
-
+Bundle 'scrooloose/syntastic.git'
 " ...
 let g:html_indent_inctags = "html,body,head,tbody"
 let g:html_indent_script1 = "inc"
