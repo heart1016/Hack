@@ -5,8 +5,21 @@ set statusline+=%*
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-"set paste
+let g:syntastic_check_on_wq = 1
+let g:syntastic_che_on_open=1
+let g:syntastic_auto_jump=1
+let g:syntastic_error_symbol = 'e>'
+let g:syntastic_warning_symbol = 'w>'
+let g:syntastic_always_populate_loc_list=1
+let g:syntastic_loc_list_height = 6
+let g:syntastic_enable_highlighting = 1
+nmap <Leader>e :Errors<cr>
+nmap <Leader>c :lnext<cr>
+nmap <Leader>z :lpre<cr>
+
+
+
+set pastetoggle=<F2>
 set sw=4
 set ts=4
 set et
